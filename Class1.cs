@@ -91,7 +91,7 @@ namespace Lab14
         static void Main(string[] args)
         {
             // Задание 1. Процессы и информация о них
-            var process = Process.GetProcesses();
+         
             foreach(var proc in process)
             {
                 try
